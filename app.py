@@ -8,7 +8,7 @@ from google.genai import types
 import pickle
 
 # Hard-code your Google API key here
-GEMINI_API_KEY = "AIzaSyDptZ01TC5k8bcmmtmGXlcngvavBjEbkBI"  # Replace with your actual API key
+GEMINI_API_KEY = "Enter your key here"  # Replace with your actual API key
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 
 app = Flask(__name__)

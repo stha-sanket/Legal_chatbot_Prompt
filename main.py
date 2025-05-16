@@ -36,7 +36,7 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 # Gemini API configuration
-GEMINI_API_KEY = "AIzaSyDptZ01TC5k8bcmmtmGXlcngvavBjEbkBI"
+GEMINI_API_KEY = "Enter your api key here"
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 MODEL_NAME = "gemini-2.0-flash"
 
